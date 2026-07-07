@@ -15,9 +15,9 @@
   <h3 align="center">Vire Configuration Templates</h3>
 
   <p align="center">
-    Example TOML configuration template repository for Vire projects.
+    Example TOML configuration templates for Vire projects.
     <br />
-    <a href="https://github.com/Vire-Systems/vire-configfiles"><strong>View TOML File »</strong></a>
+    <a href="https://github.com/Vire-Systems/vire-configfiles"><strong>View TOML Files »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Vire-Systems/vire-configfiles/issues/new?labels=bug&template=bug-report.md">Report Configuration Error</a>
@@ -59,7 +59,7 @@ Providing these example configuration files makes it easier for new users to get
 <a id="how-to-use"></a>
 ## How To Use
 
-You can use these templates as the starting point of your project's Vire configuration.
+You can use these templates as the starting point for your project's Vire configuration.
 
 ### Direct Fetch (CURL/Wget)
 
@@ -70,14 +70,14 @@ mkdir .vire
 
 #### 2. Download the template files into the `.vire` directory:
 
-1. `vire.toml` -- Project build configuration: 
+1. `vire.toml` - Project build configuration: 
 ```sh
-curl -L https://raw.githubusercontent.com/Vire-Systems/vire-configfiles/refs/heads/main/vire.toml > .vire/vire.toml
+curl -L https://raw.githubusercontent.com/Vire-Systems/vire-configfiles/main/vire.toml > .vire/vire.toml
 ```
 
-2.  `vire.deploy.toml` -- Project deployment configuration:
+2.  `vire.deploy.toml` - Project deployment configuration:
 ```sh
-curl -L https://raw.githubusercontent.com/Vire-Systems/vire-configfiles/refs/heads/main/vire.deploy.toml > .vire/vire.deploy.toml
+curl -L https://raw.githubusercontent.com/Vire-Systems/vire-configfiles/main/vire_deploy.toml > .vire/vire.deploy.toml
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,18 +111,20 @@ Project Link: [Vire Organization](https://github.com/Vire-Systems)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/Vire-Systems/vire?style=for-the-badge
-[contributors-url]: https://github.com/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Vire-Systems/vire?style=for-the-badge
-[forks-url]: https://github.com/network/members
-[stars-shield]: https://img.shields.io/github/stars/Vire-Systems/vire?style=for-the-badge
-[stars-url]: https://github.com/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Vire-Systems/vire?style=for-the-badge
-[issues-url]: https://github.com/issues
+[contributors-shield]: https://img.shields.io/github/contributors/Vire-Systems/vire-configfiles?style=for-the-badge
+[contributors-url]: https://github.com/Vire-Systems/vire-configfiles/graphs/contributors
+
+[forks-shield]: https://img.shields.io/github/forks/Vire-Systems/vire-configfiles?style=for-the-badge
+[forks-url]: https://github.com/Vire-Systems/vire-configfiles/network/members
+
+[stars-shield]: https://img.shields.io/github/stars/Vire-Systems?style=for-the-badge&label=Organization%20Stars
+[stars-url]: https://github.com/Vire-Systems
+
+[issues-shield]: https://img.shields.io/github/issues/Vire-Systems/vire-configfiles?style=for-the-badge
+[issues-url]: https://github.com/Vire-Systems/vire-configfiles/issues
+
 [license-shield]: https://shields.io
-[license-url]: https://github.com/blob/master/LICENSE.txt
-[linkedin-shield]: https://shields.io
-[linkedin-url]: https://linkedin.com
+[license-url]: https://github.com/Vire-Systems/vire-configfiles/blob/main/LICENSE
 
 [TOML-shield]: https://img.shields.io/badge/TOML-Vire%20Configuration%20Files-blue?style=for-the-badge&logo=toml
 [TOML-url]: https://toml.io
